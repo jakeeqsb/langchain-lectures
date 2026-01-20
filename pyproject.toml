@@ -1,0 +1,14 @@
+[project]
+name = "langchain-session"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "black>=26.1.0",
+    "dotenv>=0.9.9",
+    "isort>=7.0.0",
+    "langchain>=1.2.6",
+    "langchain-openai>=1.1.7",
+    "langchain-tavily>=0.2.17",
+]
