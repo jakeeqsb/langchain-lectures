@@ -8,6 +8,9 @@ from langchain_classic.agents.react.agent import create_react_agent
 from langchain_openai import ChatOpenAI
 from langchain_tavily import TavilySearch
 
+tools = [TavilySearch()]
+llm = ChatOpenAI(model="gpt-4", temperature=0)
+
 
 def main():
     print("Hello from langchain-session!")
