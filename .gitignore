@@ -9,3 +9,18 @@ wheels/
 # Virtual environments
 .venv
 .env
+
+./.agents/*
+.agents
+./.vscode/*
+.vscode
+
+/activate/*
+activate/*
+
+/chroma_db/*
+./chroma_db/*
+chroma_db/*
+
+
+

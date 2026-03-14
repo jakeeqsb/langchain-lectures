@@ -9,6 +9,15 @@ dependencies = [
     "dotenv>=0.9.9",
     "isort>=7.0.0",
     "langchain>=1.2.6",
+    "langchain-classic>=1.0.1",
+    "langchain-ollama>=1.0.1",
     "langchain-openai>=1.1.7",
     "langchain-tavily>=0.2.17",
+    "streamlit>=1.55.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "section6-RAG",
+    "section7-RAG",
 ]
